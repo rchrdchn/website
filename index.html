@@ -1,0 +1,257 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="bootstrap, CSS3, HTML5">
+    <meta name="description" content="Web Developer Bootstrap on HTML5 and CSS3">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="stylesheet" href="./css/animate.css"/>
+    <script src="./js/jquery-2.1.0.js"></script>
+    <script src="./js/bootstrap.js"></script>
+    <script src="./js/typer.js"></script>
+    <script src="./js/blocs.js"></script>
+    <link rel='stylesheet' href='./css/et-line.min.css'/>
+    <link rel='stylesheet' href='./css/font-awesome.min.css'/>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat&subset=latin,latin-ext' rel='stylesheet'
+          type='text/css'>
+
+    <title>Richard Chan</title>
+</head>
+<body>
+<!-- Main container -->
+<div class="page-container">
+
+    <!-- Navigation Bloc -->
+    <div class="bloc bgc-carmine-pink d-bloc" id="nav-bloc">
+        <div class="container">
+            <nav class="navbar row">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="index.html"> Richard Chan</a>
+                    <button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse"
+                            data-target=".navbar-1">
+                        <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span
+                            class="icon-bar"></span><span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse navbar-1">
+                    <ul class="site-navigation nav navbar-nav">
+                        <li>
+                            <a  onclick="scrollToTarget('#portfolio')">Work</a>
+                        </li>
+                        <li>
+                            <a onclick="scrollToTarget('#bio')">Bio</a>
+                        </li>
+                        <li>
+                            <a onclick="scrollToTarget('#contact')">Contact</a>
+                        </li>
+                        <li>
+                            <a onclick="scrollToTarget('#faq')">FAQ</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navigation Bloc END -->
+
+    <!-- header -->
+    <div class="bloc bgc-outer-space bg-city-overlay d-bloc" id="header">
+        <div class="container bloc-xl">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h3 class="text-center mg-lg tc-white">I AM A WEB DEVELOPER SPECIALIZED IN <span
+                            data-typer-targets="HTML5,CSS3,BOOTSTRAP 3"></span></h3>
+
+                    <div class="text-center">
+                        <a class="btn  btn-xl btn-wire wire-btn-black animDelay06 animated fadeInUp"
+                           onclick="scrollToTarget('#portfolio')">PORTFOLIO</a>
+                    </div>
+                    <h4 class="text-center mg-md tc-white">I AM TAKING NEW CLIENTS RIGHT NOW!</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- header END -->
+
+    <!-- porfolio -->
+    <div class="bloc l-bloc bgc-white" id="portfolio">
+        <div class="container bloc-lg">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2 class="text-center mg-md ">
+                        Portfolio
+                    </h2>
+
+                    <p class="text-center sub-heading">
+                        Here are some projects I have worked on thus far.
+                    </p>
+                </div>
+            </div>
+            <div class="row voffset">
+                <div class="col-sm-6">
+                    <a href="#" data-lightbox="img/mike-river.png" data-caption="Designed and developed website using HTML5, CSS3, and Bootstrap 3 for Mike River"><img
+                            src="img/mike-river.png" class="img-responsive animated zoomIn" alt="portfolio"/></a>
+                </div>
+                <div class="col-sm-6">
+                    <a href="#" data-lightbox="img/lilys-creperie.png" data-caption="Work collaboratively with Lily's Creperie's owners to develop a new website for the restaurant new branding"><img
+                            src="img/lilys-creperie.png" class="img-responsive animated zoomIn" alt="portfolio"/></a>
+                <!-- </div>
+                <div class="col-sm-3">
+                    <a href="#" data-lightbox="img/productshot.png" data-caption="Image description"><img
+                            src="img/productshot.png" class="img-responsive animated zoomIn" alt="portfolio"/></a>
+                </div>
+                <div class="col-sm-3">
+                    <a href="#" data-lightbox="img/food-widget.png" data-caption="Image description"><img
+                            src="img/food-widget.png" class="img-responsive animated zoomIn" alt="portfolio"/></a>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <!-- porfolio END -->
+
+    <!-- team -->
+    <div class="bloc bgc-carmine-pink d-bloc" id="bio">
+        <div class="container bloc-sm">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2 class="text-center mg-md ">
+                        Biography
+                    </h2>
+                </div>
+            </div>
+              <div class="col-md-8 col-md-offset-2">
+                    <div class="quote"></div>
+                    <div class="carousel slide" id="fade-quote-carousel" data-ride="carousel" data-interval="3000">
+                        
+                        <!-- Carousel items -->
+                        <div class="carousel-inner">
+                            <div class="active item">
+                                <div class="profile-circle">
+                                    <img src="img/rich.png"
+                                         class="img-responsive img-circle center-block img-frame-rd" alt="member"/>
+                                </div>
+                                <blockquote>
+                                    <p>My name is Richard and I do website development. Contact me for any of your website projects. I deliver projects efficiently, communicate constantly, develop with quality in mind. I can speak English, Spanish, and Cantonese.</p>
+                                </blockquote>
+                                    <h2 class="col-sm-12 text-center" id="contact">
+                                    Don&rsquo;t hesitate to contact me today for your projects!
+                                    </h2>
+                                    </div>
+                                    <div class="col-sm-12 text-center">
+                                    <a href="mailto:richardchanme@gmail.com" class="btn btn-lg wire-btn-white btn-wire animated zoomIn">CONTACT ME NOW</a>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <!-- team END -->
+
+
+    <!-- Footer - quote END -->
+
+    <div class="bloc l-bloc bgc-white" id="faq">
+        <div class="container bloc-sm">
+            <div class="row">
+                <div class="col-sm-12">
+                    
+                    <h2 class="text-center mg-md ">
+                        FAQ
+                    </h2>
+                    <p class="sub-heading text-center">
+                        Frequently Asked Questions
+                    </p>
+                </div>
+            </div>
+            <div class="row voffset-mg">
+                <div class="col-md-12">
+                    <div class="panel-group" id="accordion" role="tablist">
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab">
+                                <h4 class="panel-title">
+                                    <a class="accordion-toggle collapsed" data-toggle="collapse"
+                                       data-parent="#accordion"
+                                       href="#collapseOne" aria-expanded="false">How long does it take you to create a website?</a>
+                                </h4>
+                            </div>
+                            <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-expanded="false"
+                                 style="height: 0px;">
+                                <div class="panel-body">
+                                    Depending on what you need your website to do, a one-page website can take a few days to create. If you need a multi-layer site? A simple multi-layer website can take one week to create while a complex website can take over two weeks. It all depends on the needs for your project.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab">
+                                <h4 class="panel-title">
+                                    <a class="accordion-toggle collapsed" data-toggle="collapse"
+                                       data-parent="#accordion"
+                                       href="#collapseTwo" aria-expanded="false">What languages do you know?</a>
+                                </h4>
+                            </div>
+                            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-expanded="false">
+                                <div class="panel-body">
+                                    As of now, I work with HTML5, CSS3, and have been specializing in Bootstrap 3. Currently learning JavaScript, JQuery, AJAX, and Ruby on Rails.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab">
+                                <h4 class="panel-title">
+                                    <a class="accordion-toggle collapsed" data-toggle="collapse"
+                                       data-parent="#accordion"
+                                       href="#collapseThree" aria-expanded="false">What can you bring to the table?</a>
+                                </h4>
+                            </div>
+                            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-expanded="false">
+                                <div class="panel-body">
+                                    With over a year of programming experience you will find me to be a proficient developer who works well with a team or independently to bring ideas and projects to completion in a timely and efficient manner.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab">
+                                <h4 class="panel-title">
+                                    <a class="accordion-toggle collapsed" data-toggle="collapse"
+                                       data-parent="#accordion"
+                                       href="#collapseFour" aria-expanded="false">What is your pricing?</a>
+                                </h4>
+                            </div>
+                            <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-expanded="false">
+                                <div class="panel-body">
+                                    Pricing depends on the project's complexity. I am building my portfolio, so I am taking new projects at this moment and most projects will be in the range of $100-$200 for the entire site (1 page website, multi-layer, landing page). I promise it will be delivered as fast, efficiently, and diligently as possible. <a href="mailto:richardchanme@gmail.com" target="_blank">Contact me today for more info</a>.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ScrollToTop Button -->
+    <a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span
+            class="fa fa-chevron-up"></span></a>
+    <!-- ScrollToTop Button END-->
+
+    <!-- Footer - bloc-8 -->
+    <div class="bloc bgc-carmine-pink d-bloc">
+        <div class="container bloc-sm">
+            <div class="row">
+                <div class="col-xs-12 col-md-8 col-md-offset-2 text-center mg-md">Copyright 2016 / Richard Chan</div>
+            </div>
+        </div>
+
+    <!-- Footer - bloc-8 END -->
+</div>
+<!-- Main container END -->
+</body>
+
+<!-- Google Analytics -->
+
+<!-- Google Analytics END -->
+
+</html>
