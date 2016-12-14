@@ -1,0 +1,135 @@
+#body {
+    width: 100%;
+    height: 100%;
+    padding: 25px;
+    background-color: #FFDF1A;
+}
+
+#top {
+    text-align: center;
+    font-size: 40px;
+    padding: 0px 0px 15px 0px;
+    margin: 0px;
+    font-family: "AvantGarde", sans-serif;
+    font-weight: bolder;
+}
+
+header {
+    text-align: center;
+}
+
+.team {
+    font-family: "AvantGarde", sans-serif;
+    text-align: center;
+    font-weight: 900;
+    letter-spacing: 5px;
+    font-size: 24px;
+    padding: 10px;
+    margin: 2px;
+}
+
+.image {
+    padding: 50px 20px 50px 20px;
+    text-align: center;
+    opacity: 0.7;
+    border-radius: 10px;
+}
+
+.image:hover {
+    opacity: 0.9;
+}
+
+#name {
+    text-align: center;
+    font-family: "AvantGarde", sans-serif;
+    color: #111111;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+#name:hover {
+    color: #FFDF1A;
+    font-size: 26px;
+    transition: 0.8s all;
+}
+
+.intro {
+    padding: 5px 15px 5px 15px;
+    margin: 5px;
+    font-family: "Helvetica", sans-serif;
+    font-size: 16px;
+    color: #111111;
+    letter-spacing: 0.3px;
+}
+
+#wiki {
+    font-size: 20px;
+    color: #111111;
+    text-decoration: none;
+    display: block;
+}
+
+#wiki:hover {
+    background-color: #FFDF1A;
+    font-size: 22px;
+    font-weight: 900;
+    transition: 1s all;
+}
+
+.pique {
+    background-color: #00529F;
+    margin: 2px;
+    border-radius: 25px;
+}
+
+.busquets {
+    background-color: #A2214B;
+    margin: 2px;
+    border-radius: 25px;
+}
+
+.iniesta {
+    background-color: #00529F;
+    margin: 2px;
+    border-radius: 25px;
+}
+
+.messi {
+    background-color: #A2214B;
+    margin: 2px;
+    border-radius: 25px;
+}
+
+.suarez {
+    background-color: #00529F;
+    margin: 2px;
+    border-radius: 25px;
+}
+
+.social-media {
+    text-align: center;
+}
+
+.social-media:hover {
+    background-color: #FFDF1A;
+}
+
+#contact {
+    text-decoration: none;
+}
+
+
+#contact:hover {
+    font-size: 20px;
+    transition: 0.5s all;
+    color: #A2214B;
+}
+
+.footer {
+    font-family: "AvantGarde", sans-serif;
+    position: absolute;
+    padding: 1rem;
+    background-color: #FFDF1A;
+    text-align: center;
+    font-size: 18px;
+}
